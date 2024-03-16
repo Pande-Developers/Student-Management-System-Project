@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: dimgray;
     color: white;
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -13,7 +13,12 @@ a:hover{
 
 #c_name{
     text-align: center;
+    color: darkorange
 }
+#define{
+    font-size:24px;
+}
+
 .container{
     margin: 20px 50px;
 }
@@ -39,7 +44,7 @@ a:hover{
     border: 1px solid white;
     height: 40px;
     padding-left: 10px;
-    width: auto;
+    width: 380px;
     color: white;
 }
 .icons{
@@ -65,7 +70,7 @@ th{
     border-bottom: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);
     padding: 10px;
-    background-color:606c38;
+    background-color:bisque;
 }
 td{
     padding: 10px;
@@ -89,9 +94,18 @@ tbody{
 
 .button {
     height: 40px;
-    width: 400px;
+    width: 200px;
     margin: 20px;
     margin-left: 0;
     margin-top: 30px;
-    background-color: forestgreen;
+    background-color:blanchedalmond;
+    border-radius: 05%;
+}
+
+.button:hover{
+    background-color: green;
+}
+
+.but1{
+    text-align: center;
 }
