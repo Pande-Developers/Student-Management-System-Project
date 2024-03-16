@@ -15,7 +15,7 @@
 <body>
 
      <div class="container">
-        <h1>Student Management CRUD</h1>
+        <h1 id="define">Student Management CRUD</h1>
         <h1 id="c_name">Shri Ramdeobaba College of Engineering and Management</h1>
         <div class="input-container">
             <input type="text" placeholder="Name" id="name">
@@ -24,7 +24,7 @@
             <input type="number" placeholder="Age" id="age">
             <input type="number" placeholder="Contact No." id="contact">
             <select id="education" name="education">
-                <option value="" selected="selected" disabled="disabled">Education </option>
+                <option value="" selected="selected" disabled="disabled">Education</option>
                 <option value="MBA">Masters of Business administration(M.B.A.)</option>
                 <option value="B. Tech">Bachelors of technology(B. Tech) </option>
                 <option value="Master's degree">Master's degree(M.Tech)</option>
@@ -32,13 +32,15 @@
             </select>
         </div>
          
-        <button class="button" type="submit" id="submit" onclick="addStudent()">Add Student</button>
+        <div class="but1">
+            <button class="button" type="submit" id="submit" onclick="addStudent()">Add Student</button>
+        </div>
         <input class="search" type="text" id="search" onkeyup="search()" placeholder="Search By Name, email or Degree">
 
         <table class="table" id="table">
             <thead>
                 <tr>
-                    <th>ID</th>
+                    <th>Sr.</th>
                     <th>Student Name</th>
                     <th>Email</th>
                     <th>Age</th>
