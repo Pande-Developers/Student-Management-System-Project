@@ -1,4 +1,4 @@
-😀 # Student-Management-System-Project. 😀
+# 😀 Student-Management-System-Project. 😀
 ## 🖥 A project based on CRUD Functionality.
 ##### This repository has been created to create a Student Management System web application.
 ##### This application can be used to manage student data and use it according to our needs.
