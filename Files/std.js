@@ -11,7 +11,7 @@ function addStudent(){
     var educationValue = document.getElementById('education').value;
     var contactValue = document.getElementById('contact').value;
 
-    if(document.querySelector("#submit").innerText == "Edit Student"){
+    if(document.querySelector("#submit").innerText == "Save Student"){
         console.log("this will edit and not add");
         console.log(global_id);
         let index;
@@ -195,7 +195,7 @@ function edit(id) {
     document.querySelector("#contact").value = student['contact'];
     document.querySelector("#education").value = student['education'];
 
-    document.getElementById("submit").innerText = "Edit Student";
+    document.getElementById("submit").innerText = "Save Student";
 
     global_id=id;
 }
