@@ -23,3 +23,5 @@
 ##### 👨‍💻 Pranav Soni : 44
 ##### 👨‍💻 Pranay Nimje : 45
 ##### 👨‍💻 Rishi Mashidkar : 49
+
+# Site is live at : https://std-mgmt-pandedevelopers.netlify.app/ 
